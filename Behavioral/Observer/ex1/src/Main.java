@@ -1,6 +1,15 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello world!");
+        WeatherStation weatherStation = new WeatherStation();
+
+        Observer phoneDisplay = new PhoneDisplay();
+        Observer tvDisplay = new TvDesplay();
+
+        weatherStation.addObserver(phoneDisplay);
+        weatherStation.addObserver(tvDisplay);
+
+        // Simulating weather change
+        weatherStation.setWeather("Sunny");
     }
 }
