@@ -10,6 +10,6 @@ public class Main {
         weatherStation.addObserver(tvDisplay);
 
         // Simulating weather change
-        weatherStation.setWeather("Sunny");
+        weatherStation.setWeather("Cool");
     }
 }
