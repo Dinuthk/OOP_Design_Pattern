@@ -9,7 +9,12 @@ public class Main {
         StudentController controller = new StudentController(model, view);
 
         controller.updateView();
-        
+
+        controller.setStudentName("Nanayana");
+        controller.setStudentRollNo("8");
+
+        controller.updateView();
+
     }
 
     private static Student retriveStudentFromDatabase(){
