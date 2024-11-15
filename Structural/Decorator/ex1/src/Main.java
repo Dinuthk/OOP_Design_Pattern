@@ -6,13 +6,13 @@ public class Main {
         pizza = new CheeseDecorator(pizza);
         System.out.println(pizza.getDescription() + " $" + pizza.cost());
 
-        pizza = new PepperoniDecorator(pizza);
-        System.out.println(pizza.getDescription() + " $" + pizza.cost());
-
-        pizza = new MushroomDecorator(pizza);
-        System.out.println(pizza.getDescription() + " $" + pizza.cost());
-
-        pizza = new OliveDecorator(pizza);
-        System.out.println(pizza.getDescription() + " $" + pizza.cost());
+//        pizza = new PepperoniDecorator(pizza);
+//        System.out.println(pizza.getDescription() + " $" + pizza.cost());
+//
+//        pizza = new MushroomDecorator(pizza);
+//        System.out.println(pizza.getDescription() + " $" + pizza.cost());
+//
+//        pizza = new OliveDecorator(pizza);
+//        System.out.println(pizza.getDescription() + " $" + pizza.cost());
     }
 }
