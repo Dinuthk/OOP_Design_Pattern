@@ -15,5 +15,5 @@ public class Main {
         int[] array3 = {6, 1, 3, 9, 5};
         sortingContext.performSort(array3); // Output: Sorting using Quick Sort
     }
-    
+
 }
